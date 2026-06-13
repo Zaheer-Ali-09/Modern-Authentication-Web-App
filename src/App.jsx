@@ -1,11 +1,13 @@
+import Navbar from "./components/navbar/navbar";
+import Hero from "./components/hero section/hero";
 
-
-function App() {
+const App = () => {
   return (
-    <div>
-      <h1>Hello Auth System</h1>
-    </div>
-  )
-}
+    <>
+      <Navbar />
+      <Hero />
+    </>
+  );
+};
 
-export default App
+export default App;
